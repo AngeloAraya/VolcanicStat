@@ -1,0 +1,29 @@
+{% load staticfiles %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        {% load static %}
+        <meta charset="utf-8">
+
+        <link href= {% static 'bootstrap.min.css' %} rel= "stylesheet">
+        <link href= {% static 'style.css'%} rel= "stylesheet">
+        <script src= {% static 'js/zoom.js' %}    type= "text/javascript"></script>
+   
+        <title>VolcanicStats</title>
+    </head>
+  
+    <body>
+        <nav class= "navbar navbar-fixed-top navbar-default">
+            <div class="container">
+                <div class="brand" style= "margin: 0; float: none;" href= "#">
+                    <img id="logo" src= {% static 'images/logo.png' %} alt= "VolcanicStat">
+                </div>
+            </div>
+        </nav>
+        <div class="body" role"main">
+               
+            
+        </div>
+    </body>
+</html>
